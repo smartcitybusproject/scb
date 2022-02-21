@@ -1,0 +1,46 @@
+baseURL = ""
+relativeURLs = "True"
+title = "Smart City Bus "
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[params]
+  google_analytics_id=""
+
+  [params.homepage_meta_tags]
+    meta_description = "Smart City Bus"
+    meta_og_title = "Smart City Bus"
+    meta_og_type = "website"
+    meta_og_image = ""
+    meta_og_description = "Smart City Bus"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@zerostaticio"
+    meta_twitter_creator = "@zerostaticio"
+
+[[menu.main]]
+	name = "ΕΡΓΟ"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = "ΣΥΝΕΡΓΑΤΕΣ"
+    url = "/work/"
+    weight = 2
+
+[[menu.main]]
+    name = "ΠΑΡΑΔΟΤΕΑ"
+    url = "/about/"
+    weight = 3
+
+
+
+[[menu.main]]
+    name = "ΕΠΙΚΟΙΝΩΝΙΑ"
+    url = "/contact/"
+    weight = 4
+
+ 
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
